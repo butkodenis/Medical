@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  //background-color: $color-body;
+  //overflow-x: hidden;
+  font-size:  $fs-base;
+}
+section {
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: $fs-h1;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+h2 {
+  font-size: $fs-h2;
+  font-weight: bold;
+  color:  $color-h2;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+h3 {
+  font-size: $fs-h3;
+  text-transform: uppercase;
+  font-weight:bold ;
+}
+
+h4 {
+  font-size: $fs-h4;
+  text-transform: uppercase;
+  font-weight:bold ;
+
+}
+
+span {
+  font-family: FreestyleScript;
+  font-size: 30px;
+  text-align: center;
+
+  margin: 0 auto;
+  display: block;
+}
+
+.author {
+  color: #999 ;
+}
+.logo {
+  color: #5363db; /* text color */
+  font-family: MyriadProRegular;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.text-sp1 {
+  line-height: 30px;
+  font-size: 16px;
+}

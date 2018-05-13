@@ -1,0 +1,82 @@
+.aboutus {
+  background-color: #5cb85c;
+  .aboutus-content {
+    h2 {
+      text-align: left;
+      margin: 25px 0;
+    }
+    p {
+      text-align: left;
+      line-height: 26px;
+      padding-right: 100px;
+    }
+
+    //font-size: 20px;
+  }
+  .carusel_1 {
+    height: 300px;
+    width: 570px;
+    border-radius: 8px 8px 8px 8px;
+    background-clip: padding-box;
+    background-color: #fff;
+    -webkit-box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+    box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+
+
+    //overflow: hidden;
+    .carusel_1-slide {
+      height: 300px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px 8px 8px 8px;
+      background-clip: padding-box;
+      background-color: #fff;
+      -webkit-box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+      box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+    }
+    img {
+      //height: 300px;
+      //left: -150px;
+      //overflow: hidden;
+      position: relative;
+      top: -70px;
+      border-radius: 8px;
+      background-clip: padding-box;
+      background-color: #fff;
+      -webkit-box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+      box-shadow: 4px 4px 20px rgba(0,0,0,.1);
+    }
+    .owl-nav {
+      width: 100%;
+      position: absolute;
+      top: 45%;
+      .owl-next,.owl-prev {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+      .owl-prev {
+        //left: 20px;
+        //position: absolute;
+        margin-left: -25px ;
+
+
+
+        float: left;
+        background-image: url("/images/prev.png");
+        background-position: 10% 5%;
+      }
+      .owl-next {
+        //left: 40px;
+        //position: absolute;
+        margin-right: -25px;
+
+        float: right;
+        background-image: url("/images/next.png");
+        background-position: 0% 18%;
+
+      }
+    }
+  }
+}

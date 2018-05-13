@@ -1,0 +1,67 @@
+.ourclass {
+  color: $color-text-ourclass;
+  .col-lg-6 {
+    margin-bottom: 25px;
+  }
+  .row {
+    margin-top: 75px;
+  }
+  .ourclass-block {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 4px 4px 20px rgba(0,0,0,.1); /* drop shadow */
+    -webkit-box-shadow: 4px 4px 20px rgba(0,0,0,.1); /* drop shadow */
+    box-shadow: 4px 4px 20px rgba(0,0,0,.1); /* drop shadow */
+    height: 300px;
+
+    .ourclass-block-img {
+      -webkit-border-radius: 8px 0px 0px 8px;
+      border-radius: 8px 0px 0px 8px;
+
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      width: 270px;
+      height: 300px;
+      overflow: hidden;
+      float: left;
+      //margin-left: -15px;
+
+      img {
+        ////width: 300px;
+        height: 270px;
+        //overflow: hidden;
+        position: relative;
+
+        height: 100%;
+      }
+      .ourclass-block-img-1 {
+        left: -155px;
+      }
+      .ourclass-block-img-2 {
+        left: -95px;
+      }
+      .ourclass-block-img-3 {
+        left: -95px;
+      }
+      .ourclass-block-img-4 {
+        left: -30px;
+      }
+    }
+    .ourclass-block-content {
+      padding: 25px 30px;
+      width: 300px;
+      float: right;
+      //margin-right: -15px;
+      max-height: 300px;
+      p {
+        margin-bottom: 10px;
+        line-height: 28px;
+      }
+    }
+  }
+}

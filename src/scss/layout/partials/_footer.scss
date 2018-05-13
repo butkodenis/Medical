@@ -1,0 +1,47 @@
+footer {
+  padding: 100px 0 ;
+  background-color: $color-footer-bgr;
+  color: $white;
+  h4 {
+    margin-bottom: 62px;
+  }
+  .text-content {
+    width: 84%;
+  }
+  .contact-block {
+    height: 40px;
+    margin: 0 0 25px 0;
+    img {
+      float: left;
+      margin: 5px 20px 0 0;
+
+
+    }
+    .text-content {
+      display: inline-block;
+    }
+  }
+
+
+  .cosial {
+
+    font-size: 0;
+    //width: 170px;
+    margin-top: 20px;
+    li {
+      display: inline-block;
+      //width: 20px;
+      margin: 0 15px 0 0;
+    }
+  }
+  //ul {
+  //  font-size: 0px;
+  //  li {
+  //    display: inline-block;
+  //    //float: right;
+  //    background-color: #00AA00;
+  //    width: 20px;
+  //  }
+  //}
+}
+

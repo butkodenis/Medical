@@ -1,0 +1,87 @@
+.price {
+    background-image: url("/images/bg3.png");
+    background-position: 428% 20%;
+    background-repeat: no-repeat ;
+
+  .price-blick {
+      height: 493px;
+    -moz-border-radius:  10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0 0 10px 10px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 6px 6px 50px rgba(0,0,0,.1); /* drop shadow */
+    -webkit-box-shadow: 6px 6px 50px rgba(0,0,0,.1); /* drop shadow */
+    box-shadow: 6px 6px 50px rgba(0,0,0,.1); /* drop shadow */
+    .price-block_price {
+      height: 150px;
+      padding: 30px 70px;
+      -moz-border-radius: 10px 10px 0 0;
+      -webkit-border-radius: 10px 10px 0 0;
+      border-radius: 10px 10px 0 0; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #5b6beb; /* layer fill content */
+      color: $white;
+      h2 {
+        //position: absolute;
+        display: block;
+        color: $white;
+        float: left;
+        font-size: 75px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+      }
+      :first-child {
+        font-size: 30px;
+        margin: 30px 20px 0 30px;
+
+
+
+      }
+      :last-child{
+        font-size: 18px;
+        margin-top: 53px;
+        float: right;
+
+      }
+    }
+    .price-content {
+      padding: 50px 70px;
+      color: #555; /* text color */
+      //font-family: "OpenSans", sans-serif;
+
+
+      h4 {
+        font-size: 18px;
+        font-weight: normal;
+        color: #555; /* text color */
+        margin-bottom: 50px;
+
+      }
+      button {
+        display: block;
+        width: 170px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border: none;
+        border-radius: 20px; /* border radius */
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box; /* prevents bg color from leaking outside the border */
+        background-color: #5b6beb; /* layer fill content */
+        color: $white;
+        font-size: 18px;
+        font-weight: bold;
+        //text-transform: capitalize;
+      }
+    }
+  }
+}

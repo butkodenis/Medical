@@ -1,0 +1,21 @@
+.features {
+  background-image: url("/images/bg2.png");
+  color: $white;
+  text-align: center;
+  .features-block {
+    margin: 25px 0;
+    height: 250px;
+    max-height: 250px;
+    img {
+      margin-bottom: 25px;
+    }
+    h4 {
+      margin-bottom: 25px ;
+      height: 30px;
+    }
+    p {
+      line-height: 30px;
+
+    }
+  }
+}
