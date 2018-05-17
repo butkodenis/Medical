@@ -6286,7 +6286,23 @@ body {
   font-family: 'Poppins', sans-serif; }
 
 h1 {
-  margin-bottom: 20px; }
+  font-size: 58px;
+  font-weight: 700;
+  background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+p {
+  font-size: 14px;
+  font-weight: 300; }
+
+button {
+  padding: 0 60px 0 30px;
+  line-height: 42px;
+  border-radius: 25px;
+  outline: 0 !important; }
 
 .banner_area {
   background-color: #f9f9ff; }
