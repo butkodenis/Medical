@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ReloadPlugin = require('reload-html-webpack-plugin');
 
 module.exports = {
     entry: './src/app.js',
@@ -38,5 +39,6 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('style.css')
+        // new ReloadPlugin()
     ]
 };

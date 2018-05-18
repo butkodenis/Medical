@@ -1,20 +1,33 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
 }
 
 h1 {
   font-size: 58px;
   font-weight: 700;
+
   background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
   background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
   background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+
+}
 
 p {
   font-size: 14px;
   font-weight: 300;
+  color: #777;
 }
 button {
   padding: 0 60px 0 30px;
