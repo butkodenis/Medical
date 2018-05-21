@@ -16,6 +16,10 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
 h4 {
   font-size: 18px;
   font-weight: 600;
@@ -34,15 +38,35 @@ button {
   line-height: 42px;
   border-radius: 25px ;
   outline: 0 !important;
+  background-image: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
   //background: #222222;
-  //border: none;
-  //color: #fff;
-  //display: inline-block;
-  //font-weight: 500;
-  //position: relative;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
   //-webkit-transition: all 0.3s ease 0s;
   //-moz-transition: all 0.3s ease 0s;
   //-o-transition: all 0.3s ease 0s;
   //transition: all 0.3s ease 0s;
-  //cursor: pointer;
+  cursor: pointer;
 }
+
+.no-padding {
+  padding: 0;
+}
+   i .fas {
+  right: 20px;
+}
+   button > i {
+     color: #fff;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-60%);
+     right: 30px;
+     -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+   }

@@ -6298,6 +6298,10 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+h2 {
+  font-size: 36px;
+  font-weight: 600; }
+
 h4 {
   font-size: 18px;
   font-weight: 600;
@@ -6313,7 +6317,32 @@ button {
   padding: 0 60px 0 30px;
   line-height: 42px;
   border-radius: 25px;
-  outline: 0 !important; }
+  outline: 0 !important;
+  background-image: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer; }
+
+.no-padding {
+  padding: 0; }
+
+i .fas {
+  right: 20px; }
+
+button > i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  right: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
 
 .banner_area {
   background-color: #f9f9ff; }
@@ -6345,5 +6374,28 @@ button {
   margin: 0 0 30px 0; }
   .block-services i {
     font-size: 40px; }
+  .block-services .icon {
+    margin-right: 20px; }
+
+.appoinment {
+  background-color: #222; }
+  .appoinment .appoinment-block_right {
+    padding-right: 20%;
+    padding-left: 5%;
+    padding-bottom: 30px;
+    padding-top: 30px; }
+  .appoinment h2 {
+    color: #fff;
+    margin-bottom: 45px; }
+  .appoinment input, .appoinment textarea {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #656463;
+    font-size: 14px;
+    padding: 12px; }
+  .appoinment input, .appoinment textarea, .appoinment button {
+    margin-top: 20px; }
+  .appoinment textarea {
+    height: 150px; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
