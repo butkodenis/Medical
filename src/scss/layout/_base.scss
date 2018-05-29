@@ -19,7 +19,15 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 600;
+
 }
+h3 {
+  font-size: 24px;
+  background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 h4 {
   font-size: 18px;
   font-weight: 600;
@@ -32,6 +40,9 @@ p {
   font-size: 14px;
   font-weight: 300;
   color: #777;
+}
+li {
+  list-style-type: none;
 }
 button {
   padding: 0 60px 0 30px;
@@ -59,7 +70,7 @@ button {
    i .fas {
   right: 20px;
 }
-   button > i {
+button > i {
      color: #fff;
      position: absolute;
      top: 50%;
