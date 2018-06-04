@@ -24,6 +24,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "reload-html-webpack-plugin": "^0.1.2"
   }
 }

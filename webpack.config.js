@@ -38,7 +38,12 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('style.css')
-        // new ReloadPlugin()
+        new ExtractTextPlugin('style.css'),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
+
+
     ]
 };

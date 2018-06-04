@@ -6343,10 +6343,13 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-weight: 600; }
+  color: #000;
+  font-weight: 600;
+  text-align: center; }
 
 h3 {
   font-size: 24px;
+  font-weight: 600;
   background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
@@ -6377,13 +6380,11 @@ button {
   display: inline-block;
   font-weight: 500;
   position: relative;
+  transition: all 0.3s ease 0s;
   cursor: pointer; }
 
 .no-padding {
   padding: 0; }
-
-i .fas {
-  right: 20px; }
 
 button > i {
   color: #fff;
@@ -6395,6 +6396,26 @@ button > i {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
+
+button:hover i {
+  right: 20px; }
+
+header {
+  padding: 20px 0; }
+  header .menubar nav {
+    transition: all 0.3s ease 0s;
+    transform-origin: 100% 50%; }
+  header .menubar a {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 25px;
+    display: inline-block; }
+  header .fa-plus {
+    transform: rotate(45deg); }
+  header .hide {
+    display: none; }
 
 .banner_area {
   background-color: #f9f9ff; }
@@ -6430,19 +6451,18 @@ button > i {
     margin-right: 20px; }
 
 .appoinment {
-  background-color: #222; }
+  background-color: #000; }
   .appoinment .appoinment-block_right {
     padding-right: 20%;
     padding-left: 5%;
     padding-bottom: 30px;
     padding-top: 30px; }
   .appoinment h2 {
-    color: #fff;
-    margin-bottom: 45px; }
+    color: #fff; }
   .appoinment input, .appoinment textarea {
     border-radius: 0;
     background-color: transparent;
-    border: 1px solid #656463;
+    border: 1px solid #656463 !important;
     font-size: 14px;
     padding: 12px; }
   .appoinment input, .appoinment textarea, .appoinment button {
@@ -6457,10 +6477,16 @@ button > i {
     text-transform: capitalize; }
   .consultants p {
     text-align: center; }
+  .consultants .block-consultant {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden; }
 
 .mask {
   padding-top: 45%;
   background-image: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  width: 100%;
   height: 100%;
   opacity: 0;
   position: absolute;
@@ -6501,8 +6527,9 @@ button > i {
 
 .blog-area {
   padding: 120px 0; }
-  .blog-area h2, .blog-area p {
-    text-align: center; }
+  .blog-area p {
+    text-align: center;
+    margin-bottom: 45px; }
 
 .single-blog {
   text-align: left; }

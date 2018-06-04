@@ -1,5 +1,5 @@
 .appoinment {
-  background-color: #222;
+  background-color: $black;
   //color: $white;
   appoinment-block_left {
 
@@ -12,12 +12,12 @@
   }
   h2 {
     color: $white;
-    margin-bottom: 45px;
+    //margin-bottom: 45px;
   }
   input,textarea {
     border-radius: 0;
     background-color: transparent;
-    border: 1px solid #656463;
+    border: 1px solid #656463 !important;
     //color: #fff;
     font-size: 14px;
     padding: 12px;
