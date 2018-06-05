@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "jquery": "^3.3.1",
+    "jquery.counterup": "^2.1.0",
     "reload-html-webpack-plugin": "^0.1.2"
   }
 }

@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'main.js'
     },
     devtool: 'inline-source-map',
     devServer: {
@@ -39,10 +39,10 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('style.css'),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery'
-        }),
+        // new webpack.ProvidePlugin({
+        //     $: 'jquery',
+        //     jQuery: 'jquery'
+        // }),
 
 
     ]
